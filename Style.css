@@ -1,4 +1,4 @@
-h1{
+*{
   font-family: 'Poppins', sans-serif;
  font-family: 'Roboto', sans-serif;
 }
@@ -8,3 +8,10 @@ h1{
     height: auto;
 }
    
+body{
+    height: 100vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background:#07c2e755
+}
