@@ -7,7 +7,7 @@
 }
 
 .not-found img {
-    max-width: 80%; 
+    max-width: 75%; 
     height: auto;
 }
    
@@ -22,7 +22,7 @@ body{
 .container{
     position:relative;
     width: 400px;
-    height: 105px;        /* Change this back later 105px */
+    height: 105px;        
     background:#fff;
     padding: 28px 32px;
     overflow: hidden;
