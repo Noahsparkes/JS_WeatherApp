@@ -20,7 +20,7 @@ search.addEventListener("click", () => {
   )
     .then((response) => response.json())
     .then((json) => {
-      console.log("API Response:", json); // Log the JSON response from API
+      console.log("API Response:", json); 
 
       if (json.cod === "404") {
         container.style.height = "400px";
@@ -44,7 +44,7 @@ search.addEventListener("click", () => {
 
       switch (json.weather[0].main) {
         case "Clear":
-          image.src = "./Images/clear.png"; //sort out these image paths!
+          image.src = "./Images/clear.png"; 
           break;
 
         case "Rain":
